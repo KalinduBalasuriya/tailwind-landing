@@ -8,12 +8,18 @@ import {
   SpecialOffer,
   Subscribe,
   SuperQuality,
+  Footer,
 } from "./sections";
+
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <main className="relative">
-      <section className="xl:padding-1 wide:pading-r padding-b">Hero</section>
+      <Nav />
+      <section className="xl:padding-1 wide:pading-r padding-b">
+        <Hero />
+      </section>
       <section className="padding">
         <PopularProducts />
       </section>
@@ -35,7 +41,6 @@ function App() {
       <section className="padding bg-black padding-x padding-t pb-8">
         <Footer />
       </section>
-      <h1>Hi</h1>
     </main>
   );
 }
