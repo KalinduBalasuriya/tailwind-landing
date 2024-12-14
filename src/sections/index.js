@@ -15,4 +15,5 @@ export {
   SpecialOffer,
   Subscribe,
   SuperQuality,
+  Footer,
 };
