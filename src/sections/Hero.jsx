@@ -1,7 +1,10 @@
 import React from "react";
 import Button from "../components/Button";
 import { arrowRight } from "../assets/icons";
-import { statistics } from "../constants";
+import { shoes, statistics } from "../constants";
+import { bigShoe1, bigShoe2, bigShoe3 } from "../assets/images";
+import ShoeCard from "../components/ShoeCard";
+import { useState } from "react";
 
 const Hero = () => {
   return (
