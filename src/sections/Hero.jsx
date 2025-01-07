@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../components/Button";
 import { arrowRight } from "../assets/icons";
 import { shoes, statistics } from "../constants";
-import { bigShoe1, bigShoe2, bigShoe3 } from "../assets/images";
+import { bigShoe1 } from "../assets/images";
 import ShoeCard from "../components/ShoeCard";
 import { useState } from "react";
 
@@ -57,7 +57,7 @@ const Hero = () => {
             <div key={shoe}>
               <ShoeCard
                 imgUrl={shoe}
-                changeBigShoeImage={(shoe) => setBigshoeImage(shoe)}
+                changeBigShoeImage={(x) => setBigshoeImage(x)}
                 bigShoeImage={bigShoeImage}
               />
             </div>
