@@ -9,6 +9,7 @@ import {
   Subscribe,
   SuperQuality,
   Footer,
+  TestSec,
 } from "./sections";
 
 import Nav from "./components/Nav";
@@ -16,6 +17,9 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <main className="relative">
+      {/* <section className="padding bg-white padding-x padding-t pb-8">
+        <TestSec />
+      </section> */}
       <Nav />
       <section className="xl:padding-1 wide:pading-r padding-b">
         <Hero />
