@@ -14,7 +14,7 @@ const Button = ({
     ${
       backgroundColor
         ? `${backgroundColor} ${textColor} ${borderColor}`
-        : "bg-coral-red  text-white"
+        : "bg-red-400  text-white"
     }
         ${fullWidth && "w-full"}"} `}
     >
