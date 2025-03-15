@@ -14,4 +14,14 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Print a greeting
-        run: echo "Hello World!"
+        run: echo "Workflow is started!"
+
+      - name: setup environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - name: Install dependancies
+        run: npm Install
+
+      - name: Build the App
+        run: npm run build
