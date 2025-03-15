@@ -6,7 +6,7 @@ const Button = ({
   backgroundColor,
   textColor,
   borderColor,
-  fullWidth,
+
   fullWidth,
 }) => {
   return (
