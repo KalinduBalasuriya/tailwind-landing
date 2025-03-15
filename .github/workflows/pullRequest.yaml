@@ -1,0 +1,25 @@
+name: Testing pull request workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  testing-pull-request:
+    name: Testing Pull Request
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build App
+        run: npm run build
