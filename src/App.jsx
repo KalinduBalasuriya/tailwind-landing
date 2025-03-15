@@ -9,7 +9,6 @@ import {
   Subscribe,
   SuperQuality,
   Footer,
-  TestSec,
 } from "./sections";
 
 import Nav from "./components/Nav";
